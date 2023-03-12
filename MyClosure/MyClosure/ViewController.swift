@@ -61,9 +61,6 @@ class ViewController: UIViewController {
     
     //MARK: - closure
     func closureTest() {
-        
-        // trailing closure
-        
         print("closure test")
     }
 }
