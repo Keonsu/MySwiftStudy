@@ -63,7 +63,11 @@ class ViewController: UIViewController {
     func closureTest() {
         
         // trailing closure
+        let greetUser = { (name: String) in
+            print("Hey there, \(name)")
+        }
         
+        greetUser("Jin")
         
         
         print("closure test")
