@@ -64,6 +64,8 @@ class ViewController: UIViewController {
         
         // trailing closure
         
+        
+        
         print("closure test")
     }
 }
